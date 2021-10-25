@@ -7,7 +7,7 @@ between the client and server through TCP Communication. The HOST local ip is fo
 The server binds the ip and port and listens and stores any incoming connects. Messages sent to the server from the 
 client have to be decoded in byte form.
 
-##Pynput
+## Pynput
 I used pynput to listen for any keyboard inputs. The keyboard inputs read in Keycodes, I converted to string for 
 legibility and to then be able to convert that into bytes to communicate the inputs to the server. Pressing the Esc 
 stops the client and server.
